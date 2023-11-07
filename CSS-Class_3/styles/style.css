@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    text-align:center;
+    align-content: space-between;
+    margin: 0 20vw;
+    font-family: sans-serif;
+}
+
+header{
+    background-color:rgb(4, 159, 159);
+    padding: 15px;
+}
+
+header nav a{
+    text-decoration: none;
+    background-color:rgb(18, 203, 18);
+    color: rgb(154, 13, 3);
+    padding: 14px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+a:hover{
+    color:rgb(18, 203, 18);
+    background-color: rgb(154, 3, 3);
+}
+
+body{
+    background-color:aqua;
+}
+
+main{
+    min-height: calc(100vh - 70px);
+}
+
+h1 {
+    text-shadow: 2px 2px 20px red;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+main div p {
+    text-align: justify;
+    text-align-last: center;
+    text-indent: 50px;
+}
+
+main p::first-letter {
+    font-size: xx-large;
+    text-transform: uppercase;
+    white-space: pre-wrap;
+    color: silver;
+}
+
+#capital {
+    text-transform: capitalize;
+}
+
+#lower {
+    text-transform: lowercase;
+}
+
+#upper {
+    text-transform: uppercase;
+}
+
+#letter-spc {
+    letter-spacing: 3px;
+}
+
+#word-spc {
+    word-spacing: 15px;
+}
+
+#l-heit {
+    line-height: 45px;
+}
+
+#overline {
+    text-decoration: overline;
+}
+
+#underline {
+    text-decoration: underline;
+}
+
+#under-overline {
+    text-decoration:overline underline;
+}
+
+footer{
+    background-color:rgb(4, 159, 159);
+    padding: 10px;
+}
